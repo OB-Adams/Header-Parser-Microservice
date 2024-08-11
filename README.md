@@ -51,8 +51,8 @@ Ensure you have the following installed:
 ### Installation
 
 1. Clone the repository:
-     git clone https://github.com/yourusername/client-info-api.git
-   cd client-info-api
+     git clone https://github.com/OB-Adams/header-parser-microservice.git
+   cd header-parser-microservice
    
 2. Install dependencies:
      npm install
