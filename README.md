@@ -51,22 +51,32 @@ Ensure you have the following installed:
 ### Installation
 
 1. Clone the repository:
-     git clone https://github.com/OB-Adams/header-parser-microservice.git
-   cd header-parser-microservice
+```
+git clone https://github.com/OB-Adams/header-parser-microservice.git
+cd header-parser-microservice
+```
    
 2. Install dependencies:
-     npm install
+```
+npm install
+```
    
 3. Create a `.env` file in the root directory and specify the port:
-     PORT=3000
+```
+PORT=3000
+```
    
 ### Running the Application
 
 Start the server with the following command:
+```
 npm start
+```
 
 Alternatively, you can use nodemon for live reloading during development:
+```
 npx nodemon server.js
+```
 
 The server will start on the port specified in the .env file, or default to port 3000 if not specified.
 
